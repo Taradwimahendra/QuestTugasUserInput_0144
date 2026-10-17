@@ -79,3 +79,4 @@ fun BiodataScreen() {
                         fontSize = 14.sp,
                         color = colorResource(id = R.color.gray_subtitle)
                     )
+                    Spacer(modifier = Modifier.height(24.dp))
