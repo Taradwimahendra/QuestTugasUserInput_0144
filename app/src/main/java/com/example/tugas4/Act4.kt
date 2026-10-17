@@ -184,3 +184,7 @@ fun BiodataScreen() {
                                         duration = SnackbarDuration.Indefinite
                                     )
                                 }
+                                delay(5.seconds)
+                                snackbarJob.cancel()
+                            }
+                        },
