@@ -123,3 +123,8 @@ fun BiodataScreen() {
                             value = birthDate,
                             onValueChange = { birthDate = it },
                             label = { Text(stringResource(id = R.string.birth_date)) },
+                            trailingIcon = { Text("📅") },
+                            singleLine = true,
+                            modifier = Modifier.weight(1f),
+                            shape = RoundedCornerShape(12.dp)
+                        )
