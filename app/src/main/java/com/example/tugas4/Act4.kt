@@ -174,3 +174,13 @@ fun BiodataScreen() {
                     }
 
                     Spacer(modifier = Modifier.weight(1f))
+
+                    Button(
+                        onClick = {
+                            coroutineScope.launch {
+                                val snackbarJob = launch {
+                                    snackbarHostState.showSnackbar(
+                                        message = snackbarMessage,
+                                        duration = SnackbarDuration.Indefinite
+                                    )
+                                }
