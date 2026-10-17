@@ -76,3 +76,6 @@ fun BiodataScreen() {
 
                     Text(
                         text = stringResource(id = R.string.form_subtitle),
+                        fontSize = 14.sp,
+                        color = colorResource(id = R.color.gray_subtitle)
+                    )
