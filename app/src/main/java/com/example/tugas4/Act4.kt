@@ -128,3 +128,7 @@ fun BiodataScreen() {
                             modifier = Modifier.weight(1f),
                             shape = RoundedCornerShape(12.dp)
                         )
+                        OutlinedTextField(
+                            value = experience,
+                            onValueChange = { experience = it },
+                            label = { Text(stringResource(id = R.string.experience)) },
