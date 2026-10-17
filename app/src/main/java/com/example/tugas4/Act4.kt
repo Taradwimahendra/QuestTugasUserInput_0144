@@ -72,3 +72,7 @@ fun BiodataScreen() {
                         fontWeight = FontWeight.Bold,
                         color = colorResource(id = R.color.purple_title)
                     )
+                    Spacer(modifier = Modifier.height(8.dp))
+
+                    Text(
+                        text = stringResource(id = R.string.form_subtitle),
