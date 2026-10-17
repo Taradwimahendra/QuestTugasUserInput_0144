@@ -138,3 +138,5 @@ fun BiodataScreen() {
                             shape = RoundedCornerShape(12.dp)
                         )
                     }
+                    Spacer(modifier = Modifier.height(24.dp))
+
