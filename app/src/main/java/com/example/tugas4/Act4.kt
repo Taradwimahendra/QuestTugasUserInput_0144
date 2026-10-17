@@ -149,4 +149,9 @@ fun BiodataScreen() {
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
-                    )
+                    ) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Checkbox(
+                                checked = isAndroidChecked,
+                                onCheckedChange = { isAndroidChecked = it }
+                            )
