@@ -195,4 +195,14 @@ fun BiodataScreen() {
                         colors = ButtonDefaults.buttonColors(
                             containerColor = colorResource(id = R.color.gray_button)
                         )
-                    )
+                    ) {
+                        Text(
+                            text = stringResource(id = R.string.proceed_btn),
+                            color = colorResource(id = R.color.white_bg),
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                }
+            }
+        }
+    }
