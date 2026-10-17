@@ -113,3 +113,4 @@ fun BiodataScreen() {
                         modifier = Modifier.fillMaxWidth(),
                         shape = RoundedCornerShape(12.dp)
                     )
+                    Spacer(modifier = Modifier.height(16.dp))
