@@ -102,3 +102,9 @@ fun BiodataScreen() {
                             shape = RoundedCornerShape(12.dp)
                         )
                     }
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    OutlinedTextField(
+                        value = email,
+                        onValueChange = { email = it },
+                        label = { Text(stringResource(id = R.string.email)) },
