@@ -33,3 +33,7 @@ fun BiodataScreen() {
     var isAndroidChecked by remember { mutableStateOf(false) }
     var isUiUxChecked by remember { mutableStateOf(false) }
     var isWebChecked by remember { mutableStateOf(false) }
+
+    val snackbarHostState = remember { SnackbarHostState() }
+    val coroutineScope = rememberCoroutineScope()
+    val snackbarMessage = stringResource(id = R.string.snackbar_message)
