@@ -191,3 +191,8 @@ fun BiodataScreen() {
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(50.dp),
+                        shape = RoundedCornerShape(12.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = colorResource(id = R.color.gray_button)
+                        )
+                    )
