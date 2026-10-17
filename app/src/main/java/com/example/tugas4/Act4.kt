@@ -24,4 +24,8 @@ import kotlin.time.Duration.Companion.seconds
 
 @Composable
 fun BiodataScreen() {
-    }
+    var firstName by remember { mutableStateOf("") }
+    var lastName by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf("") }
+    var birthDate by remember { mutableStateOf("") }
+    var experience by remember { mutableStateOf("") }
