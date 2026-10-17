@@ -49,3 +49,6 @@ fun BiodataScreen() {
             Image(
                 painter = painterResource(id = R.drawable.foto),
                 contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.fillMaxSize()
+            )
