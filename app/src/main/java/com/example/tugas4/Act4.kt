@@ -108,3 +108,8 @@ fun BiodataScreen() {
                         value = email,
                         onValueChange = { email = it },
                         label = { Text(stringResource(id = R.string.email)) },
+                        singleLine = true,
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(12.dp)
+                    )
