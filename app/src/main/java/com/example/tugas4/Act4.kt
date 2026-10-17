@@ -65,4 +65,6 @@ fun BiodataScreen() {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier.fillMaxSize()
-                ) }
+                ) {
+                    Text(
+                        text = stringResource(id = R.string.form_title),
