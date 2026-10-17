@@ -45,4 +45,7 @@ fun BiodataScreen() {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
-        )
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.foto),
+                contentDescription = null,
